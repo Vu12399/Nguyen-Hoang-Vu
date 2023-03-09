@@ -1,0 +1,62 @@
+Nhập Java. Sử dụng. Máy quét;
+lớp công lập Bai4 {
+	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
+	{
+		Máy quét sc = Máy quét mới (Hệ thống. trong);
+		Hệ thống. ra ngoài. println("Nhap 1 so nguyen (>=1 && <=12):");
+		int a = sc. kế tiếpInt();
+		công tắc (a)
+		{
+			Trường hợp 1:{ 
+				Hệ thống. ra ngoài. println("Tháng 1");
+				phá vỡ;
+			}
+			Trường hợp 2:{
+				Hệ thống. ra ngoài. println("Tháng 2");
+				phá vỡ;
+			}
+			Trường hợp 3:{
+				Hệ thống. ra ngoài. println("Tháng 3");
+				phá vỡ;
+			}
+			Trường hợp 4:{
+				Hệ thống. ra ngoài. println("Tháng 4");
+				phá vỡ;
+			}
+			Trường hợp 5:{
+				Hệ thống. ra ngoài. println("Tháng 5");
+				phá vỡ;
+			}
+			Trường hợp 6:{
+				Hệ thống. ra ngoài. println("Tháng 6");
+				phá vỡ;
+			}
+			Trường hợp 7:{
+				Hệ thống. ra ngoài. println("Tháng 7");
+				phá vỡ;
+			}
+			Trường hợp 8:{ 
+				Hệ thống. ra ngoài. println("Tháng 8");
+				phá vỡ;
+			}
+			Trường hợp 9:{ 
+				Hệ thống. ra ngoài. println("Tháng 9");
+				phá vỡ;
+			}
+			Trường hợp 10:{ 
+				Hệ thống. ra ngoài. println("Tháng 10");
+				phá vỡ;
+			}
+			Trường hợp 11:{
+				Hệ thống. ra ngoài. println("Tháng 11");
+				phá vỡ;
+			}
+			Trường hợp 12:{ 
+				Hệ thống. ra ngoài. println("Tháng 12");
+				phá vỡ;
+			}
+			mặc định: Hệ thống. ra ngoài. println ("LỖI");
+			
+		}
+	}
+}
