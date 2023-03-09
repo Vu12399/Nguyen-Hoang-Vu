@@ -1,0 +1,17 @@
+Nhập Java. sử dụng. Máy quét;
+lớp công lập Bai2 {
+	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
+	{
+		Máy quét sc = Máy quét mới (Hệ thống. trong);
+		System.out.println("Nhap so nguyen:");
+		int a = sc.nextInt();
+		if(a%2 == 0)
+		{
+			System.out.println("So vua nhap la so chan");
+		}
+		khác
+		{
+			System.out.println("So vua nhap la so le");
+		}
+	}
+}
