@@ -1,4 +1,4 @@
-Nhập Java. sử dụng. Máy quét;
+Nhập Java. Sử dụng. Máy quét;
 lớp công lập Bai1 
 {
 	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
@@ -15,7 +15,7 @@ lớp công lập Bai1
         Hệ thống. ra ngoài. println("Thượng lay du:"+(a%b));
         if(a>b) 
         {
-        	Hệ thống. ra ngoài. Println("A>B");
+        	Hệ thống. ra ngoài. Println("a>b");
         	 
         }
         khác
@@ -26,7 +26,7 @@ lớp công lập Bai1
         	}
         	khác 
         	{
-        		Hệ thống. ra ngoài. Println("A<B");
+        		Hệ thống. ra ngoài. Println("a<b");
         	}
         }
 	}
