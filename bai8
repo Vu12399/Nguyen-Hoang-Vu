@@ -1,0 +1,21 @@
+Nhập Java. sử dụng. Máy quét;
+lớp công lập Bai8 {
+	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
+	{
+		Máy quét sc = Máy quét mới (Hệ thống. trong);
+		Hệ thống. ra ngoài. println("Nhap so luong phan tu:");
+		int n = sc. kế tiếpInt();
+		int[] array = int[n mới];
+		for(int i=0; Tôi<n; tôi++)
+		{
+			Hệ thống. ra ngoài. println("Nhap phan tu " +i+ " :");
+			mảng[i] = sc. kế tiếpInt();
+		}
+		int tong = 0;
+		for(int b:array) {
+			tông += b;
+		}
+		Hệ thống. ra ngoài. println (tong);
+		Hệ thống. ra ngoài. println("Trung bình trong mang la :" +(float)tong /(float)n);
+	}	 
+}

@@ -1,0 +1,21 @@
+Nhập Java. sử dụng. Máy quét;
+lớp công lập Bai10 {
+	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
+	{
+		Máy quét sc = Máy quét mới (Hệ thống. trong);
+		Chuỗi a;
+		làm {
+		Hệ thống. ra ngoài. println("Nhap chuoi:");
+		 a = sc. nextLine();
+		}trong khi (a. chiều dài() >80);
+		Hệ thống. ra ngoài. println("Nhap ky tu kiem tra:");
+		char kytu = sc. tiếp theo(). charAt(0);
+		Int Dem = 0;
+		 for(int i=0; Tôi<a. chiều dài(); tôi++)
+		 {
+			 if(kytu == a. charAt(i))
+				 .dem++;
+		 }
+		 Hệ thống. ra ngoài. println("So lan ky tu kiem tra xuat hien trong chuoi la:"+dem);
+	}
+}

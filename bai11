@@ -1,0 +1,36 @@
+Nhập Java. sử dụng. Máy quét;
+lớp công lập Bai11 {
+	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
+	{
+		Máy quét sc = Máy quét mới (Hệ thống. trong);
+		Hệ thống. ra ngoài. println("Nhap so luong phan tu:");
+		int n = sc. kế tiếpInt();
+		int[] a = int[n mới[n];
+		for(int i=0; Tôi<n; tôi++) {
+			Hệ thống. ra ngoài. print("Nhap so nguyen" +i+" :");
+			a[i] = sc. kế tiếpInt();
+		}
+		
+		Hệ thống. ra ngoài. print ("Mang ban dau: " );
+		for(int i=0; Tôi<n; tôi++) {
+			Hệ thống. ra ngoài. in(a[i] );
+		}
+		Nhiệt độ Int;
+		Hệ thống. ra ngoài. print("\nMang sau khi sap xep: ");
+		for(int i=0; Tôi<n; tôi++) {
+			for(int y=i+1; y<n-1; y++)
+			{
+				if(a[i]>a[y])
+				{
+					temp = a[i];
+					a[i] = a[y];
+					a[y] = nhiệt độ;
+				}
+			}
+		}
+		for(int i=0; Tôi<n; tôi++) {
+			Hệ thống. ra ngoài. in(a[i] );
+		}
+		
+	}
+}

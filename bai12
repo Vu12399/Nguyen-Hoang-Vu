@@ -1,0 +1,32 @@
+Nhập Java. sử dụng. Máy quét;
+lớp công lập Bai12 {
+	chính khoảng trống tĩnh công cộng(Chuỗi[] args) 
+	{
+		Máy quét sc = Máy quét mới (Hệ thống. trong);
+		Quốc tế C,D;
+		Hệ thống. ra ngoài. print("Nhap so cot:");
+		c = sc. kế tiếpInt();
+		Hệ thống. ra ngoài. print("Nhap so dong:");
+		d = sc. kế tiếpInt();
+		int[ ][ ] arr = int mới  [d][c];
+		for(int i=0; Tôi < d; tôi++)
+		{
+			for(int j=0; j<c; j++)
+			{
+				Hệ thống. ra ngoài. print("Dong " +(i+1)+ " Cot " +(j+1)+ " :");
+				arr[i][j] =sc. kế tiếpInt();
+			}
+		}
+		tối đa int = 0;
+		for(int i[] :arr)
+		{
+			for (int y : i)
+			{
+				if (tối đa < y)
+					tối đa = y;
+			}
+		}
+		Hệ thống. ra ngoài. print("Gia tri lon nhat trong ma tran la :" + max);
+		
+	}
+}
