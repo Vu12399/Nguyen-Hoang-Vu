@@ -1,0 +1,50 @@
+Gói bai3_1 ;
+Nhập Java. tiện ích. Máy quét;
+lớp công cộng SACH {
+	riêng String  maSach;
+    riêng String  tenSach;
+    riêng String  tenTacGia;
+    private int soTrang;
+    riêng String  loaiSach;
+    private String nhaXuatBan;
+    private int soTap;
+    Gia đôi  tư nhân;
+    khoảng trống công cộng NHAPSACH() {
+        Máy quét sc = Máy quét mới (Hệ thống. trong);
+        Hệ thống. ra. println("Nhap ma sach:");
+        maSach = sc. nextDòng();
+        Hệ thống. ra. println("Nhấp tên sach:");
+        tenSach = sc. nextDòng();
+        Hệ thống. ra. println("Nhấp tên tác giả:");
+        tenTacGia = sc. nextDòng();
+        Hệ thống. ra. println("Nhap so trang:");
+        soTrang = sc. nextInt();
+        Sc. nextDòng();
+        Hệ thống. ra. println("Nhập loại sách:");
+        loaiSach = sc. nextDòng();
+        Hệ thống. ra. println("Nhật nhà xuất bản:");
+        nhaXuatBan = sc. nextDòng();
+        Hệ thống. ra. println("Nhấp so tap:");
+        soTap = sc. nextInt();
+        Hệ thống. ra. println("Nhập gia:");
+        Gia = SC. Kế tiếpNhân đôi();
+    }
+
+
+    khoảng trống công cộng INSACH() {
+        Hệ thống. ra. println("Ma sach: " + maSach);
+        Hệ thống. ra. println("Mười sach: " + tenSach);
+        Hệ thống. ra. println("Ten tac gia: " + tenTacGia);
+        Hệ thống. ra. println("So trang:" + soTrang);
+        Hệ thống. ra. println("Loại sách: " + loại);
+        Hệ thống. ra. println("Nhà xuất bản: " + nhaXuatBan);
+        Hệ thống. ra. println("So tap:" + soTap);
+        Hệ thống. ra. println("Gia: " + gia);
+    }
+    public static void main(String[] args) {
+        SACH sach = SACH mới();
+        sach. NHAPSACH();
+        Hệ thống. ra. println("Thông tin cuốn sách vừa nhập:");
+        sach. INSACH();
+    }
+}
